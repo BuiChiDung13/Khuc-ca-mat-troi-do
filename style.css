@@ -1,0 +1,204 @@
+/* =========================
+   KHÚC CA MẶT TRỜI ĐỎ
+   Trang mở đầu
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #120f0d;
+    color: #e8dfd2;
+    font-family: "Courier New", Courier, monospace;
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+main > p:first-of-type {
+    margin-top: 12px;
+    color: #a99d8e;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+main img {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    margin: 60px auto 40px;
+}
+
+.intro {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.read-button {
+    display: inline-block;
+    padding: 14px 34px;
+    border: 1px solid #a99d8e;
+    color: #e8dfd2;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.read-button:hover {
+    background-color: #e8dfd2;
+    color: #120f0d;
+}
+/* =========================
+   DANH SÁCH HỒI - CHƯƠNG
+   ========================= */
+
+.chapter-list {
+    max-width: 650px;
+    margin: 80px auto 0;
+    text-align: left;
+}
+
+.chapter-list h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.chapter-list a {
+    display: block;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+
+    border-bottom: 1px solid #3a332d;
+
+    color: #e8dfd2;
+    text-decoration: none;
+
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.chapter-list a:hover {
+    background-color: #1d1815;
+}
+/* =========================
+   TRANG ĐỌC TRUYỆN
+   ========================= */
+
+.reading-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 30px 120px;
+    text-align: center;
+}
+
+.reading-series {
+    margin: 0 0 20px;
+    color: #a99d8e;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.reading-page h1 {
+    margin: 0 0 70px;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.reading-content {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+    white-space: pre-wrap;
+}
+
+.reading-content p {
+    margin: 0 0 28px;
+}
+/* =========================
+   ĐIỀU HƯỚNG CHƯƠNG
+   ========================= */
+
+.chapter-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 1px solid #3a332d;
+}
+
+.chapter-navigation a {
+    color: #a99d8e;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.chapter-navigation a:hover {
+    color: #e8dfd2;
+}
+/* =========================
+   GIAO DIỆN ĐIỆN THOẠI
+   ========================= */
+
+@media (max-width: 600px) {
+
+    main {
+        padding: 50px 20px;
+    }
+
+    h1 {
+        font-size: 34px;
+        letter-spacing: 3px;
+    }
+
+    main > p:first-of-type {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .reading-page {
+        padding: 50px 20px 80px;
+    }
+
+    .reading-page h1 {
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-bottom: 50px;
+    }
+
+    .reading-content {
+        font-size: 17px;
+        line-height: 1.9;
+    }
+
+    .chapter-navigation {
+        gap: 10px;
+        margin-top: 60px;
+    }
+
+    .chapter-navigation a {
+        font-size: 12px;
+    }
+}
