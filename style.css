@@ -201,4 +201,11 @@ main img {
     .chapter-navigation a {
         font-size: 12px;
     }
+   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+@media (max-width: 600px) {
+    body {
+        font-family: "IBM Plex Mono", monospace;
+    }
+}
 }
